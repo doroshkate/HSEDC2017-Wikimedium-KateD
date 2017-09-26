@@ -1,0 +1,16 @@
+body {
+  font-family: 'PT Sans', 'Arial', sans-serif;
+}
+
+p {
+  font-size: 21px;
+  line-height: 26px;
+  font-family: 'PT Sans', 'Arial', sans-serif;
+}
+
+h1 {
+  color: rgb(0,55,200);
+  font-size: 30px;
+  line-height: 1.4cm;
+  text-decoration: uppercase;
+}
