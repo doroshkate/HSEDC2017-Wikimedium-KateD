@@ -1,6 +1,15 @@
 body {
   font-family: 'PT Sans', 'Arial', sans-serif;
+
+  background-image: url(dc-online-media-mockup.jpg);
+  background-size: 800px 20624px;
+  background-position: top center;
+  background-repeat: no-repeat;
+
+  width: 700px;
+  margin: 0 auto;
 }
+
 
 p {
   font-size: 21px;
@@ -11,6 +20,7 @@ p {
 h1 {
   color: rgb(0,55,200);
   font-size: 30px;
+  font-weight: bold;
   line-height: 1.4cm;
   text-decoration: uppercase;
 }
