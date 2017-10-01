@@ -10,17 +10,59 @@ body {
   margin: 0 auto;
 }
 
+h1 + p {color: grey;
+    font-family: "PT Sans",sans-serif;
+    font-size: 25px;
+    line-height: 25px;
+    margin-top: 5px;}
 
-p {
-  font-size: 21px;
-  line-height: 26px;
-  font-family: 'PT Sans', 'Arial', sans-serif;
+h2 + p {
+  margin-top: 10px;
 }
 
+h3 + p {
+  margin-top: 10px;
+  }
+
 h1 {
-  color: rgb(0,55,200);
+  font-family: "PT Sans",sans-serif;
+  font-size: 45px;
+  font-weight: bold;
+  margin-top: 65px;
+  }
+
+h2 {
+  font-family: "PT Sans",sans-serif;
   font-size: 30px;
   font-weight: bold;
-  line-height: 1.4cm;
-  text-decoration: uppercase;
+  margin-top: 30px;
+}
+
+h3 {
+  font-family: "PT Sans",sans-serif;
+  font-size: 25px;
+  font-weight: bold;
+  margin-top: 30px;
+}
+
+a {color:black;}
+
+p  {
+  font-family: "PT Sans",sans-serif;
+  font-size: 20px;
+  line-height: 25px;
+  margin-top: 30px;
+}
+
+ul {
+  font-family: "PT Sans",sans-serif;
+  font-size: 20px;
+  line-height: 25px;
+  margin-top: 30px;
+  list-style-type: disc;
+}
+
+li {margin: 20px;
+}
+
 }
