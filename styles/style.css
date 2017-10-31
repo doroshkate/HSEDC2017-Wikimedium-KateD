@@ -9,10 +9,8 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 
-
   padding-top: 66px;
 }
-
 
 h1, h2, h3, p, ul, blockquote {
   width: 700px;
@@ -27,13 +25,28 @@ h1,h2,h3 {
 h1 {
   font-size: 40px;
   line-height: 46px;
+  margin-bottom: 20px;
+}
+
+img {
+  display: block;
+  width: 1020px;
+  margin: 80px auto;
+}
+
+img + h2 {
+  margin-top: -1px;
+}
+
+img + p {
+  margin-top: -3px;
 }
 
 h1 + p {
   color: rgba(0,0,0,.4);
   font-family: "PT Sans Caption",sans-serif;
   font-size: 22px;
-  line-height: 32px;
+  line-height: 30px;
 }
 
 h2 {
@@ -43,7 +56,12 @@ h2 {
 }
 
 h2 + p {
-  margin-top: 7px;
+  margin-top: 8px;
+}
+
+h2 + ul {
+  margin-top: 36px
+
 }
 
 h3 {
@@ -53,7 +71,7 @@ h3 {
 }
 
 h3 + p{
-  margin-top: 6px;
+  margin-top: 14px;
 }
 
 p, blockquote, ul {
@@ -75,6 +93,7 @@ blockquote{
   font-style: italic;
 }
 
+
 blockquote: before {
   content: '';
   display: block;
@@ -94,11 +113,7 @@ li {margin: 20px;
   margin: 17px 0 17px 30px;
 }
 
-img{
-  display: block`;
-  width: 1020px;
-  margin: 80px auto;
-}
+
 
 
 }
