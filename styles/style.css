@@ -9,9 +9,14 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 
+
+  padding-top: 66px;
+}
+
+
+h1, h2, h3, p, ul, blockquote {
   width: 700px;
   margin: 0 auto;
-  padding-top: 66px;
 }
 
 h1,h2,h3 {
@@ -89,6 +94,11 @@ li {margin: 20px;
   margin: 17px 0 17px 30px;
 }
 
+img{
+  display: block`;
+  width: 1020px;
+  margin: 80px auto;
+}
 
 
 }
