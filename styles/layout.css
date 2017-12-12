@@ -91,7 +91,8 @@ a {
   top: 46px;
   left: 20px;
   width: 300px;
-  opacity: 1;
+  opacity: .1;
+  transition: opacity 1s ease;
 
 }
 
@@ -105,12 +106,20 @@ a {
   margin-top: 10px;
 }
 
+.sidebar > ul > li:hover {
+  color: (0,0,0,.1)
+}
 
 .sidebar li {
   margin: 12px 0;
   font-size: 14px;
   line-height: 15px;
   color: rgba(0, 0, 0, .8);
+
+}
+
+.sidebar:hover {
+  opacity: 1;
 }
 
 .sidebar > ul > li > ul {
@@ -119,6 +128,10 @@ a {
 
 .sidebar > ul > li > ul li {
   color: rgba(0, 0, 0, .4);
+}
+
+.sidebar > ul > li > ul li:hover {
+color: rgba(0, 0, 0,.6); 
 }
 
 p + p, blockquote + p {
