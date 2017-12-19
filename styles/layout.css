@@ -9,7 +9,11 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 
-  padding-top: 66px;
+  /*padding-top: 66px; /*/
+}
+
+* {
+  box-sizing: border-box;
 }
 
 article {
@@ -86,6 +90,44 @@ a {
   text-decoration: none;
 }
 
+
+
+
+.menubar {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  height: 50px;
+  padding: 20px;
+}
+
+.logo {
+  background-image: url(../img/wikimedium_logo.svg);
+  background-size: cover;
+  display: block;
+  width: 180px;
+  height: 16px;
+
+}
+
+.about {
+font-size: 14px;
+line-height: 50px;
+color: rgba(0, 0, 0, .2)
+transition: color .1s ease;
+
+}
+
+.about:hover {
+  color: rgba(0,0,.4);
+}
+
 .sidebar {
   position: fixed;
   top: 46px;
@@ -131,7 +173,7 @@ a {
 }
 
 .sidebar > ul > li > ul li:hover {
-color: rgba(0, 0, 0,.6); 
+  color: rgba(0, 0, 0,.6);
 }
 
 p + p, blockquote + p {
