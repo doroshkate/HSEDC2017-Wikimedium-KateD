@@ -1,0 +1,12 @@
+.section {
+  height: 100vh;
+  display:flex;
+}
+
+.slider {
+  width: 500px;
+  height: 300px;
+  margin: auto;
+  
+
+}
