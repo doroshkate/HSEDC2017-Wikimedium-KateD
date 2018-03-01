@@ -137,6 +137,7 @@ transition: color .1s ease;
   width: 300px;
   opacity: .1;
   transition: opacity 1s ease;
+  z-index: 5;
 
 }
 

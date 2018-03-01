@@ -44,10 +44,10 @@
 
   width: 100%;
   height: calc(100% - 51px); /*чтобы навигация заняла не весь gallery целиком и осталось место для подписи*/
-max-width: 1200px;
-left: 50%;
-transform: translate3d(-50%, 0, 0);
-
+  max-width: 1200px;
+  left: 50%;
+  transform: translate3d(-50%, 0, 0);
+  z-index: 5;
 }
 
 .galleryNavItem {
