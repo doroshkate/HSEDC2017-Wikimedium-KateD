@@ -1,4 +1,5 @@
 @import "reset.css";
-@import "layout.css";
+@import "post-item.css";
+@import "posts.css";
 @import "gallery.css";
 @import "responsive.css";
