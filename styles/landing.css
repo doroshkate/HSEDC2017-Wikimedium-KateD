@@ -7,7 +7,9 @@ body.landing {
   display: flex;
   align-items: center;
   justify-content: center;
+  /* background-color: #f6f6f6; */
 }
+
 .menubar {
   position: fixed;
   width: 100%;
@@ -223,11 +225,11 @@ background-image: url(../img/pattern.svg);
 }
 
 
-@media screen and (max-width: 1460px) {
+/* @media screen and (max-width: 1460px) {
   .landingWrapper {
     width: 100%;
   }
-}
+} */
 
 @media screen and (max-width: 1180px) {
   .mainSection {
@@ -400,4 +402,116 @@ background-image: url(../img/pattern.svg);
     width: 836px;
     height: 483px;
   }
+}
+
+@media screen and (max-width: 450px) {
+  .mainSection {
+   width: 100vw;
+   height: 580px;
+ }
+
+ .mainSection h2 {
+   font-size: 26px;
+   line-height: 32px;
+   width: 260px;
+ }
+
+ .mainSection p {
+   margin-top: 18px;
+   font-size: 18px;
+   line-height: 27px;
+ }
+
+
+ .mainSection section figure {
+   margin-left: 0;
+    width: 130px;
+    height: 20px;
+    margin-top: 20px;
+    background-repeat: no-repeat;
+ }
+
+ .mainSection.left section,
+ .mainSection.right section {
+    width: 100vw;
+    padding-right: 150px;
+ }
+
+ .mainSection.left section {
+   left: 20px;
+ }
+
+ .mainSection.right section {
+   left: 115px;
+ }
+
+ .mainSection.left section figure,
+ .mainSection.right section figure {
+   margin-left: 0;
+ }
+
+
+.mainSection.center {
+  height: 700px;
+}
+
+.mainSection.center section {
+  top: 50px;
+  padding: 0 20px;
+}
+
+.mainSection.center h2 {
+  font-size: 28px;
+  line-height: 37px;
+  width: 100%;
+}
+
+.mainSection.center p {
+  margin-top: 15px;
+}
+
+.mainSection.center section nav {
+  margin-top: 35px;
+}
+
+.mainSection.center section nav a {
+  margin: 0 0 20px 0;
+}
+
+.small,
+.large {
+  width: 235px;
+  height: 50px;
+  line-height: 50px;
+  margin-bottom: 20px;
+}
+
+#m1,
+#m2,
+#m3 {
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+ #m1 {
+   top: 200px;
+   right: -210px;
+   width: 320px;
+   height: 290px;
+ }
+
+ #m3 {
+   top: 130px;
+   bottom: 0;
+   right: -362px;
+   width: 450px;
+   height: 393px;
+ }
+
+ #m2 {
+   top: 45px;
+    left: -330px;
+    width: 424px;
+    height: 534px;
+ }
 }
