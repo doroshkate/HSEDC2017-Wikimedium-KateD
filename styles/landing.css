@@ -3,7 +3,7 @@
   transition: all .3s ease;
 }
 
-  body.page {
+  body .landing {
   display: flex;
   align-items: center;
   justify-content: center;
