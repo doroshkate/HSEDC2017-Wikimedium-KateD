@@ -3,7 +3,7 @@
   transition: all .3s ease;
 }
 
-body.landing {
+  body.page {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -32,6 +32,8 @@ body.landing {
   flex-direction: column;
   align-items: center;
   overflow: hidden;
+  /*flex-flow: row-reverse wrap;*/
+
 
   width: 1440px;
   margin: 0 auto;
@@ -56,6 +58,7 @@ body.landing {
   font-weight: 100;
   font-size: 36px;
   line-height: 46px;
+
 }
 
 .mainSection p {
@@ -424,7 +427,7 @@ background-image: url(../img/pattern.svg);
 
 
  .mainSection section figure {
-   margin-left: 0;
+    margin-left: 0;
     width: 130px;
     height: 20px;
     margin-top: 20px;
@@ -501,17 +504,17 @@ background-image: url(../img/pattern.svg);
  }
 
  #m3 {
-   top: 130px;
+   top: 140px;
    bottom: 0;
-   right: -362px;
-   width: 450px;
-   height: 393px;
+   right: -376px;
+   width: 452px;
+   height: 360px;
  }
 
  #m2 {
-   top: 45px;
-    left: -330px;
-    width: 424px;
-    height: 534px;
+   top: 77px;
+    left: -307px;
+    width: 384px;
+    height: 527px;
  }
 }
